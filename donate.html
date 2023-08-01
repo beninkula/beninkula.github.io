@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- Donate page -->
+  <title>United Way Charity</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- This is the logo for the head -->
+  <link rel="icon" href="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\logo.png" type="image/jfif" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Anek Gujarati' rel="stylesheet">
+  <script type="text/javascript" src="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\script.js"></script>
+</head>
+
+<body>
+  <!-- This is the bootstrap navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="UWC">
+      <a class="navbar-brand" href="#">United Way Charity</a>
+        <!-- This is the logo added to the navbar-->
+      <img src="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\logo.png" class="img-thumbnail" alt="Logo" width="60" height="0" class="d-inline-block align-text-top" />
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item nav-link"><a href="index.html">Home</a></li>
+        <li class="nav-item nav-link active"><a href="donate.html">Donate</a></li>
+        <li class="nav-item nav-link"><a href="contact1.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- This is the bootstrap page header -->
+<div id="UWCH1">
+  <div class="jumbotron text-center">
+    <h1>Donate now and make a difference </h1>
+    <h3>Welcome to United Way Charity donation portal</h3>
+  </div>
+</div>
+
+<!-- The "Donate" picture -->
+<div id="donatepic">
+  <img src="https://www.goodwillaz.org/wordpress/wp-content/uploads/2018/04/5-15-1.jpg" alt="Donationpic" height="250" width="450">
+</div><br>
+
+<div id="header3">
+<h3>Your contribution brings us one step closer to ensuring that every person has a chance to grow up safe, healthy and educated.</h3>
+</div><br>
+<!-- End of the header -->
+<!-- The "Make A Donation" form -->
+<div class="form">
+  <form>
+    <h3>Make A Donation</h3><br>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="TOD">Type of Donation:</label><br>
+    <select id="TOD" id="TOD" name="TOD" required>
+      <option value="7AS">7 a-side Tournament</option>
+      <option value="monthly">Monthly</option>
+      <option value="once-off">Once-off</option>
+    </select><br>
+    <label for="amount">Donation Amount:</label><br>
+    <input type="number" id="amount" name="amount"><br>
+    <label for="currency">Currency:</label>
+    <select id="currency" name="currency" required>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+    </select><br>
+  </div><br>
+
+<!-- The "Checkout" form -->
+  <div class="checkout">
+    <form>
+      <h3>Bank Details</h3><br>
+      <label for="card-number">Card Number:</label><br>
+      <input type="text" id="card-number" name="card-number"><br>
+      <label for="card-expiry">Expiration Date:</label><br>
+      <input type="text" id="card-expiry" name="card-expiry"><br>
+      <label for="card-cvv">CVV:</label><br>        <input type="text" id="card-cvv" name="card-cvv"><br>
+      <br>
+      <label for="billing-name">Billing Name:</label><br>
+      <input type="text" id="billing-name" name="billing-name"><br>
+      <label for="billing-address">Billing Address:</label><br>
+      <input type="text" id="billing-address" name="billing-address"><br>
+      <button type="submit" onclick="checkout()">Donate Now</button>
+    </div><br>
+
+
+
+</body>
+</html>

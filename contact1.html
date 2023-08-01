@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <!-- Contact page -->
+  <title>United Way Charity</title>
+  <meta charset="utf-8">
+  <!-- This is the logo for the head -->
+  <link rel="icon" href="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\logo.png" type="image/jfif" />
+  <!-- This is the links to bootstrap,jquery,google fonts,css and javascript -->
+  <link rel="stylesheet" href="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Anek Gujarati' rel="stylesheet">
+  <script type="text/javascript" src="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\script.js"></script>
+</head>
+
+<body>
+  <!-- This is the bootstrap navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="UWC">
+      <a class="navbar-brand" href="#">United Way Charity</a>
+        <!-- This is the logo added to the navbar-->
+      <img src="C:\Users\Beni Makengo Nkula\OneDrive - National College of Ireland\Semester 1\Web Design and Development\Repeats\logo.png" class="img-thumbnail" alt="Logo" width="60" height="0" class="d-inline-block align-text-top" />
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item nav-link"><a href="index.html">Home</a></li>
+        <li class="nav-item nav-link"><a href="donate.html">Donate</a></li>
+        <li class="nav-item nav-link active"><a href="contact1.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Start of the header -->
+<div id="h1">
+  <h1>Contact Us</h1>
+</div>
+
+<!-- Start of the "Contact" form -->
+<div id="ctnform">
+        <form name="contactForm" action="/action_page.html" onsubmit="return validateForm()" method="post">
+            First Name: <input type="text" name="fname" required><br>
+            Surname: <input type="text" name="surname" required><br>
+            Phone Number: <input type="text" name="phoneno" required><br>
+            E-mail: <input type="email" name="email" required><br>
+            Country of Resident:
+            <select id="COR" name="COR" required>
+                <option value="-------">------</option>
+                <option value="Ireland">Ireland</option>
+                <option value="UK">United Kingdom</option>
+                <option value="USA">United States of America</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+            </select><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

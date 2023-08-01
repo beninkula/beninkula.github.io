@@ -1,0 +1,97 @@
+/* Beginning of Beni Nkula CSS */
+/* CSS of index.html*/
+
+
+/* Image used for the background */
+body {
+    background-image:url(https://get.pxhere.com/photo/nature-horizon-light-cloud-sky-sunlight-cloudy-air-atmosphere-photo-daytime-clear-cumulus-covered-blue-blue-sky-clouds-background-climate-blue-sky-clouds-meteorological-phenomenon-atmosphere-of-earth-639846.jpg);
+    margin:auto;
+    font-family: 'Bebas Neue';
+  }
+
+#UWC{
+font-family: "Bebas Neue";
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+#myNavbar{
+  font-size: 25px;
+  font-family: "Bebas Neue";
+}
+
+#AboutUs{
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
+
+/* CSS of donate.html*/
+#UWCH1{
+  font-family: 'Bebas Neue';
+}
+
+#donatepic{
+  text-align: center;
+}
+
+#header3{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+  border-top-color: inherit;
+  border-right-color: inherit;
+  border-bottom-color: inherit;
+  border-left-color: inherit;
+  font-family: 'Bebas Neue';
+
+}
+
+.form{
+  border-style: solid;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Gujarati";
+}
+
+.checkout{
+  border-style: solid;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 17px;
+  font-family: Gujarati;
+}
+
+/* CSS of contact1.html*/
+
+#h1{
+  text-align: center;
+  font-family: 'Bebas Neue';
+}
+
+#ctnform{
+  font-size: 20px;
+  font-family: 'Bebas Neue';
+
+
+}
