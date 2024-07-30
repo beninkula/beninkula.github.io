@@ -1,0 +1,88 @@
+body{
+  background-image: url("background.jpg");
+}
+
+ nav {
+           background-color: #005bb5;
+           overflow: hidden;
+       }
+       nav a {
+           float: left;
+           display: block;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+       }
+       nav a:hover {
+           background-color: #003f7f;
+       }
+       main {
+           padding: 20px;
+       }
+       section {
+           background-color: white;
+           margin-bottom: 20px;
+           padding: 20px;
+           border-radius: 8px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+       footer {
+           background-color: #0073e6;
+           color: white;
+           text-align: center;
+           padding: 1em 0;
+           position: fixed;
+           width: 100%;
+           bottom: 0;
+       }
+       .carousel-container {
+           display: flex;
+           justify-content: center;
+           margin: 20px 0;
+       }
+       .carousel-inner img {
+           margin: 0 auto;
+       }
+
+       .header {
+         padding: 20px;
+         text-align: center;
+       }
+       .header h1, .header h2, .header h3, .header h4 {
+         margin: 10px 0;
+       }
+       .theorytest, .drivingtest, .contactfrm{
+         text-align: center;
+       }
+       #theory-test-tips h2{
+         text-align: center;
+       }
+       #driving-test-tips h2{
+         text-align: center;
+       }
+       #gamediv{
+         text-align: center;
+       }
+      body .contact-form{
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color:
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin:auto;
+        }
+        .contact-form {
+          background: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          width: 100%;
+          max-width: 500px;
+        }
+        .error {
+          color: red;
+          font-size: 0.9em;
+        }
